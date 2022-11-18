@@ -1,0 +1,460 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    /* aca comienza el css de cambio climatico */
+
+
+#cambio{
+    display: grid;
+    width: 100%;
+    height: 1100px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 50px 1fr 90px ;
+    grid-template-columns:   1fr ;
+
+    
+}
+
+
+#cambio  header{
+    grid-area: header;
+    background-color:#b8e870;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cambio  main{
+    grid-area: main;
+    text-align: center;
+    padding-top: 20px;
+    background: linear-gradient(180deg,#D6F6C1,#f0f0f0f0);
+}
+
+#cambio main h1{
+    font-size: 50px;
+    padding-top: 5px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+
+#cambio main p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#cambio  footer{
+    grid-area: footer;
+    background-color: rgb(0, 189, 9);
+}
+
+#cambio a{
+    padding: 12px 100px;
+    text-decoration: none;
+    color: #00c4ed;
+}
+
+.grupo-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#cambio footer a{
+    color: #f0f0f0 ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 55px;
+}
+
+#cambio header a:hover{
+    border-radius: 5px;
+    background-color: #47c15b;
+    padding: 12px 100px;
+    display: inline-block;
+    
+}
+
+.cambio{
+    display: flex;
+}
+
+
+
+    /* a partir de aca empieza el css de animales */
+
+#animales{
+    display: grid;
+    width: 100%;
+    height: 2100px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 50px 1fr 90px ;
+    grid-template-columns:   1fr ;
+
+}
+
+#animales header{
+    grid-area: header;
+    background-color: #b8e870;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#animales header a {
+    padding: 12px 100px;
+    text-decoration: none;
+    color: #00c4ed;
+}
+
+#animales main{
+    grid-area: main;
+    background: linear-gradient(180deg,#D6F6C1,#f0f0f0f0);
+    text-align: center;
+}
+
+#animales footer{
+    grid-area: footer;
+    background-color:  rgb(0, 189, 9);
+}
+
+#animales main h1{
+    font-size: 50px;
+    padding-top: 5px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#animales main p{
+    font-size: 20px;
+}
+
+#animales main h2{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.segmento{
+    display: flex;
+    font-size: 20px;
+}
+
+
+.segmento img{
+    height: 200px;
+}
+
+#animales footer a{
+    color: #f0f0f0 ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 55px;
+    text-decoration: none;
+
+    }
+
+#animales header a:hover{
+    border-radius: 5px;
+    background-color: #47c15b;
+    padding: 12px 100px;
+    display: inline-block;
+}
+
+
+    /* a partir de aca empieza el ccs de lugares */
+
+
+#lugares {
+    display: grid;
+    width: 100%;
+    height: 3100px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 50px 1fr 90px ;
+    grid-template-columns:   1fr ;
+}
+
+
+
+#lugares header{
+    grid-area: header;
+    background-color: #b8e870;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#lugares main{
+    grid-area: main;
+    background: linear-gradient(180deg,#D6F6C1,#f0f0f0f0);
+    text-align: center;
+}
+
+#lugares footer{
+    grid-area: footer;
+    background-color:  rgb(0, 189, 9);
+}
+
+
+#lugares main h1{
+    font-size: 50px;
+    padding-top: 5px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#lugares main p{
+    font-size: 20px;
+}
+
+.img{
+    height: 350px;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+
+#lugares header a{
+    text-decoration: none;
+    color: #00c4ed;
+    padding: 12px 100px;
+}
+
+
+
+#lugares main h2{
+    font-size: 40px;
+    padding: 20px 0px 10px 25px;
+    text-align: start;
+
+
+}
+
+#lugares footer a{
+    color: #f0f0f0 ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 55px;
+    text-decoration: none;
+
+    }
+
+
+#lugares header a:hover{
+    border-radius: 5px;
+    background-color: #47c15b;
+    padding: 12px 100px;
+    display: inline-block;
+}
+
+
+
+    /* a partir de aca empieza el css de causas */
+
+
+
+#causas{
+    display: grid;
+    width: 100%;
+    height: 2700px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 50px 1fr 90px ;
+    grid-template-columns:   1fr ;
+}
+
+
+#causas header{
+    grid-area: header;
+    background-color: #b8e870;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#causas main{
+    grid-area: main;
+    text-align: center;
+    font-size: 20px;
+    background: linear-gradient(180deg,#D6F6C1,#f0f0f0f0);
+}
+
+#causas footer{
+    grid-area: footer;
+    background-color:  rgb(0, 189, 9);
+}
+
+#causas header a{
+    text-decoration: none;
+    padding: 12px 100px;
+    color: #00c4ed;
+}
+
+
+#causas main h1{
+    font-size: 50px;
+    padding-top: 15px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+
+}
+
+#causas main h2{
+    font-size: 40px;
+    padding: 20px 0px 10px 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#causas main h3{
+    font-size: 28px;
+    padding: 10px;
+
+
+}
+
+
+#causas footer a{
+    color: #f0f0f0 ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 55px;
+    text-decoration: none;
+
+    }
+
+
+
+#causas header a:hover{
+    border-radius: 5px;
+    background-color: #47c15b;
+    padding: 12px 100px;
+    display: inline-block;
+
+
+}
+
+
+
+    /* a partir de aca empieza el ccs de posibles respuestas */
+
+
+#respuestas{
+    display: grid;
+    width: 100%;
+    height: 2100px;
+    grid-template-areas: 
+    "header"
+    "main"
+   "footer";
+    grid-template-rows: 50px 1fr 90px ;
+    grid-template-columns:   1fr ;
+}
+
+
+#respuestas header{
+    grid-area: header;
+    background-color: #b8e870;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#respuestas main{
+    grid-area: main;
+    background: linear-gradient(180deg,#D6F6C1,#f0f0f0f0);
+    text-align: start;
+    font-size: 20px;
+}
+
+#respuestas footer{
+    grid-area: footer;
+    background-color:  rgb(0, 189, 9);
+}
+
+#respuestas header a{
+    text-decoration: none;
+    padding: 12px 100px;
+    color: #00c4ed;
+}
+
+
+#respuestas header a:hover{
+    border-radius: 5px;
+    background-color: #47c15b;
+    padding: 12px 100px;
+    display: inline-block;
+
+
+}
+
+
+#respuestas main h1{
+    font-size: 50px;
+    padding-top: 15px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding: 15px 0px 10px 15px;
+
+
+
+}
+#respuestas footer a{
+    color: #f0f0f0 ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 55px;
+    text-decoration: none;
+    }
+
+
+#respuestas main p{
+    padding-left: 60px;
+}
+
+
+#respuestas main h2{
+    font-size: 30px;
+    padding: 20px 0px 10px 50px;
+    text-decoration: underline;
+}
+
+
+#respuestas main li{
+    list-style: inside;
+    text-align: start;
+    justify-content: center;
+    padding-left: 85px;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pie div{
+    padding-top:  35px;
+    font-size: 17px;
+}
