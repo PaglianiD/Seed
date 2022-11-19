@@ -458,3 +458,16 @@
     padding-top:  35px;
     font-size: 17px;
 }
+
+@media screen and (max-width:300px){
+    .cambio{
+        display: block;
+        
+    }
+    .segmento {
+        display: block;
+    }
+
+
+    
+}
